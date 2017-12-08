@@ -1,4 +1,4 @@
-import java.io.ByteArrayOutputStream;
+﻿import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ import junit.framework.TestCase;
 
 public class JgitTest extends TestCase {
 
-    String gitFilePath = "/Users/superz/JgitTest";
+    String gitFilePath = "/Users/superz/GitTest1";
     File root = new File(gitFilePath);
     Git git;
     Repository repository ;
